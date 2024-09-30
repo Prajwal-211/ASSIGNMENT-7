@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Abril Fatface', serif;
+    color: #1A3636;
+    font-weight: bold;
+}
+
+.main-navbar{
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    color: #40534C;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'Abril Fatface', serif;
+}
+
+.navbar a{
+    position: relative;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #40534C;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.main-navbar i{
+    margin-right: 10px;
+}
+
+.search{
+    width: 30%;
+}
+
+.search input{
+    padding-left: 20px;
+    width: 80%;
+    height: 40px;
+    border: none;
+}
+
+
+.menubar{
+    margin: 0 50px;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item{
+    height: 100%;
+    width: 130px;
+    text-align: center;
+}
+
+.menu-item img{
+    height: 80px;
+}
+
+.menu-item a{
+    text-decoration: none;
+}
+
+.menu-item h1{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+
+
+.product-main{
+    margin-top: 100px   ;
+    width: 100%;
+}
+
+.product-header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.product-header a{
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.product-header h1{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.product-container{
+    height: 40vh;
+    display: flex; 
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.product-item{
+    text-align: center;
+    width: 20%;
+}
+
+.product-item img{
+    height: 200px;
+}
+
+.product-item a{
+    text-decoration: none;
+}
+
+.product-item h1{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.product-item p{
+    margin: 10px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
